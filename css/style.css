@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: url('/img/fondo\ 1.avif')no-repeat;
+    background-size: cover;
+    font-family: calibri;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+header {
+    margin: 15px auto;
+     width: max-content;
+    display:inline;
+    padding: 12px; 
+}
+.menu .logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 40px 300px;
+    padding-top: 25px;
+   
+}
+.carousel-inner {
+    margin-top: 12px;
+ 
+}
+.formucolor {
+    max-width: 25em;
+    padding: 1.3em;
+    margin: 0 auto;
+    background-color: rgbas(120, 119, 123, 0.3);
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px;
+}
+footer {
+    text-align: center;
+    color: white;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    border: #444;
+    margin-top: auto;
+
+}
+footer p {
+    display: inline;
+    padding: 20px;
+}
+div .wts {
+    display: flex;
+
+}
+
+.wts a {
+
+    color: green;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: green;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    position: fixed;
+    box-shadow: 0px 1px 10px rgb(0,0,0,3);
+    z-index: 100;
+}
+.wts a:hover {
+    background: white;
+    color: green;
+}
+
+
+
+
+
+
+
