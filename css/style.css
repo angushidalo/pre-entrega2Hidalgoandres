@@ -27,8 +27,9 @@ header {
 }
 
 h1 {
-    margin: 40px 300px;
+    margin: 40px auto;
     padding-top: 25px;
+    color: blue;
    
 }
 .carousel-inner {
