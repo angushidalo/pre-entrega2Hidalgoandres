@@ -6,13 +6,14 @@
     box-sizing: border-box;
   }/*# sourceMappingURL=reset.css.map */
 body {
-    background: url(../img/fondo\ 1.avif);
+    background: url(../imagenes/fondo-vivo-de-la-acuarela-del-arco-iris-37034322.webp); 
     background-size: cover;
     background-repeat: no-repeat;
     font-family: calibri;
     min-height: 100vh;
     margin: 0;
     fill-opacity: inherit;
+    background-color: aqua;
 
 }
 header {
@@ -27,15 +28,28 @@ header {
     border-radius: 50%;
    }
 
+
 h1 {
   margin-top: 30px;
 }
 .novedades {
-  box-shadow: inset 3px 3px 22px 3px;
-  padding-left: 20px;  
+  box-shadow: indigo 3px 3px 22px 3px;
+  margin: 15px;  
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  border-radius: 5px;
+  .tarjeta {
+    margin: 15px 25px; 
+  }
+
+  img {
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    margin: 10px 25px;
+    ;
+    
+  }
 
 } 
 
@@ -69,6 +83,7 @@ h1 {
   font-size: 70px;
   padding-top: 40px;
   
+
 }
 .envios {
   margin: 30px;
@@ -144,4 +159,4 @@ footer {
 .navbar-brand:hover {
     transform:scale(1.25)
   }
-      
+  
