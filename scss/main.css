@@ -90,6 +90,10 @@ h1 {
 .envios img {
   border-radius: 50px;
 }
+.envios .mapa {
+  width: 400px;
+  height: 400px;
+}
 
 footer {
   text-align: center;
